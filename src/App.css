@@ -1,0 +1,43 @@
+
+.header{
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.header a{
+  margin: 0 16px;
+  color: orange;
+  text-decoration: none;
+}
+.header-user {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color:#fff;
+  margin-left: 10px;
+}
+.logout-btn {
+  padding: 6px 12px;
+  border: 1px solid #ff9f1c;
+  border-radius: 6px;
+  color:#ff9f1c;
+  background-color: transparent;
+  cursor: pointer;
+}
+.logout-btn:hover {
+  background-color: #ff9f1c;
+  color:#333
+}
+
+/* main */
+.main{
+  padding: 20px;
+  text-align: center;
+
+}
+.product-list,
+.add-product,
+.sign-in{
+  padding: 20px;
+  text-align: center;
+}
