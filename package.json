@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kiyongee2.github.io/product_shop/",
+  "homepage": "https://xiunicss.github.io/product_shop/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
