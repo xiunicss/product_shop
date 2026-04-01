@@ -1,4 +1,4 @@
-/* header style */
+/* Header 스타일 */
 .header{
   background-color: #333;
   padding: 20px;
@@ -9,52 +9,53 @@
   color: orange;
   text-decoration: none;
 }
-.header-user {
+.header-user{
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  color:#fff;
+  gap: 10px; /* 요소간의 간격 */
+  color: #fff;
   margin-left: 10px;
 }
-.logout-btn {
+.logout-btn{
   padding: 6px 12px;
   border: 1px solid #ff9f1c;
   border-radius: 6px;
-  color:#ff9f1c;
-  background-color: transparent;
+  background-color: transparent; /* 투명하게 */
+  color: #ff9f1c;
   cursor: pointer;
 }
-.logout-btn:hover {
+.logout-btn:hover{
   background-color: #ff9f1c;
-  color:#333
+  color: #333;
 }
 
-/* main style*/
+/* main style */
 .main{
   padding: 20px;
   text-align: center;
 }
-.main img {
+.main img{
   margin-top: 20px;
 }
+
 .product-list,
-/* .add-product, */
+.add-product,
 .sign-in{
   padding: 20px;
   text-align: center;
 }
-/* productList 스타일 */
-.table-list {
+
+/* ProductList 스타일 */
+.table-list{
   width: 60%;
   margin: 0 auto;
   border-collapse: collapse;
 }
-.table-list th, 
-.table-list td {
+.table-list th, .table-list td{
   border: 1px solid #ddd;
   padding: 8px;
 }
-.table-list thead {
+.table-list thead{
   background-color: #eee;
 }
 .btn-add{
@@ -62,38 +63,72 @@
   margin-top: 20px;
   margin-right: 20%;
 }
-.btn-add button {
+.btn-add button{
   padding: 6px 12px;
 }
+
+/* 상품 정보 스타일 */
+/* 상품 정보 */
+.product-details{ 
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+.product-details p {margin-bottom: 10px;}
 
 /* 상품 등록 스타일 */
 .add-form{
   width: 40%;
   margin: 0 auto;
+  text-align: left;
 }
-.add-form label {
+.add-form label{
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
 }
 .add-form input,
-.add-form textarea {
-  padding: 8px;
+.add-form textarea{
   width: 100%;
+  padding: 8px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.add-form button {
+.add-form button{
   margin: 4px;
   padding: 6px 12px;
   border-radius: 4px;
   background-color: #28a745;
-  color:#fff;
+  color: #fff;
   border: none;
   cursor: pointer;
 }
-.add-form button[type="reset"] {
+.add-form button[type="button"]{
   background-color: #555;
 }
 
+/* 로그인 폼 */
+.signin-form {width: 30%; margin: 0 auto; text-align: left;}
+.signin-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.signin-form button {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 3%;
+}
+.signin-form button:hover {background-color: #0056b3;}
